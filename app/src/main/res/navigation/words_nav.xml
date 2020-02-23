@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/words_nav"
+    app:startDestination="@id/show_fragment">
+
+    <fragment
+        android:id="@+id/show_fragment"
+        android:name="com.example.memorizewords.fragment.show_fragment"
+        android:label="Words"
+        tools:layout="@layout/fragment_show_fragment">
+        <action
+            android:id="@+id/action_show_fragment_to_add_fragment"
+            app:destination="@id/add_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/add_fragment"
+        android:name="com.example.memorizewords.fragment.add_fragment"
+        android:label="ADD"
+        tools:layout="@layout/fragment_add_fragment">
+        <action
+            android:id="@+id/action_add_fragment_to_show_fragment"
+            app:destination="@id/show_fragment" />
+    </fragment>
+</navigation>

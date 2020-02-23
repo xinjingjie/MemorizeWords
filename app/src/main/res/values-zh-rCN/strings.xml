@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MemorizeWords</string>
+    <string name="change_theme">切换视图</string>
+    <string name="clear_data">清空数据</string>
+    <string name="clear_data_message">你确定要删除吗</string>
+    <string name="clear_data_title">清空数据</string>
+    <string name="negative_message">否</string>
+    <string name="positive_message">是</string>
+    <string name="submit_button">添加</string>
+    <string name="type_chinese">中文释义</string>
+    <string name="type_english">英文释义</string>
+    <string name="Snackbar_delete_tip">确定要删除这个单词吗</string>
+    <string name="callback">撤销</string>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MemorizeWords</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="type_english">ENGLISH</string>
+    <string name="type_chinese">CHINESE</string>
+    <string name="submit_button">Add</string>
+    <string name="clear_data">ClearData</string>
+    <string name="change_theme">ChangeTheme</string>
+    <string name="clear_data_title">CLEAR DATA</string>
+    <string name="clear_data_message">Are You Sure to Clear?</string>
+    <string name="positive_message">YES</string>
+    <string name="negative_message">NO</string>
+    <string name="Snackbar_delete_tip">do you really want to delete this word?</string>
+    <string name="callback">revoke</string>
+</resources>
